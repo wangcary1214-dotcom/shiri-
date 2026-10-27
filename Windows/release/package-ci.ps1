@@ -1,5 +1,7 @@
 param([string]$DesktopRoot=(Join-Path $PSScriptRoot '..\desktop'),[Parameter(Mandatory=$true)][string]$OutputDirectory,[string]$SignedExe)
 $ErrorActionPreference='Stop'
+$DesktopRoot=(Resolve-Path -LiteralPath $DesktopRoot).Path
+$OutputDirectory=[IO.Path]::GetFullPath($OutputDirectory)
 New-Item -ItemType Directory -Force $OutputDirectory,(Join-Path $OutputDirectory 'floral'),(Join-Path $OutputDirectory 'licenses') | Out-Null
 foreach($name in @('Shiri.exe','Shiri.exe.config','OfflineOcr.ps1','PaddleOcr.ps1','Microsoft.Web.WebView2.Core.dll','Microsoft.Web.WebView2.Wpf.dll','WebView2Loader.dll')){Copy-Item -LiteralPath (Join-Path $DesktopRoot $name) -Destination $OutputDirectory -Force}
 if($SignedExe){Copy-Item -LiteralPath $SignedExe -Destination (Join-Path $OutputDirectory 'Shiri.exe') -Force}
@@ -21,3 +23,4 @@ Course image recognition falls back to Windows OCR; install an appropriate OCR l
 Source and license: https://github.com/wangcary1214-dotcom/shiri-
 "@ | Set-Content -LiteralPath (Join-Path $OutputDirectory 'BUILD-INFO.txt') -Encoding utf8
 Get-ChildItem -LiteralPath $OutputDirectory -File -Recurse | ForEach-Object {(Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash+'  '+$_.FullName.Substring($OutputDirectory.Length+1)} | Set-Content -LiteralPath (Join-Path $OutputDirectory 'SHA256SUMS.txt') -Encoding utf8
+
