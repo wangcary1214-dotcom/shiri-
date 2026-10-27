@@ -1,0 +1,115 @@
+name: Build and optionally sign Shiri Windows
+on:
+  push:
+    branches: [main]
+    paths: ["Windows/**", ".github/workflows/windows-sign.yml"]
+  workflow_dispatch:
+    inputs:
+      sign:
+        description: Submit a production signing request (requires approved SignPath project)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+  actions: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    environment: shiri-release
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: Windows/desktop/floral/package-lock.json
+      - name: Restore pinned SDK
+        shell: pwsh
+        run: ./Windows/release/restore-webview2.ps1
+      - name: Restore existing public artwork by pinned hashes
+        shell: pwsh
+        run: ./Windows/release/restore-public-artwork.ps1
+      - name: Build embedded floral frontend
+        shell: pwsh
+        run: |
+          npm ci --prefix Windows/desktop/floral --ignore-scripts --no-audit --no-fund
+          if ($LASTEXITCODE) { throw 'npm ci failed' }
+          npm run build --prefix Windows/desktop/floral
+          if ($LASTEXITCODE) { throw 'Frontend build failed' }
+      - name: Build Shiri from source
+        shell: pwsh
+        run: ./Windows/desktop/source/build.ps1
+      - name: Verify data model self-checks
+        shell: pwsh
+        run: |
+          $process = Start-Process -FilePath ./Windows/desktop/Shiri.exe -ArgumentList '--self-test' -Wait -PassThru -WindowStyle Hidden -RedirectStandardOutput "$env:RUNNER_TEMP/self-test.log" -RedirectStandardError "$env:RUNNER_TEMP/self-test-errors.log"
+          Get-Content "$env:RUNNER_TEMP/self-test.log"
+          if ($process.ExitCode) { Get-Content "$env:RUNNER_TEMP/self-test-errors.log"; throw 'Data checks failed' }
+      - name: Build full unsigned runtime directory
+        shell: pwsh
+        run: ./Windows/release/package-ci.ps1 -OutputDirectory "$env:RUNNER_TEMP/shiri-windows-unsigned"
+      - name: Upload full unsigned runtime
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: shiri-windows-unsigned
+          path: ${{ runner.temp }}/shiri-windows-unsigned/
+          if-no-files-found: error
+      - name: Check signing configuration
+        if: inputs.sign
+        shell: pwsh
+        env:
+          TOKEN: ${{ secrets.SIGNPATH_API_TOKEN }}
+          ORG: ${{ vars.SIGNPATH_ORGANIZATION_ID }}
+          PROJECT: ${{ vars.SIGNPATH_PROJECT_SLUG }}
+          POLICY: ${{ vars.SIGNPATH_POLICY_SLUG }}
+          PUBLISHER: ${{ vars.SIGNPATH_EXPECTED_SUBJECT }}
+        run: |
+          if (!$env:TOKEN -or !$env:ORG -or !$env:PROJECT -or !$env:POLICY -or !$env:PUBLISHER) {
+            throw 'SignPath approval/configuration is incomplete. Nothing will be published as signed.'
+          }
+      - name: Upload own unsigned binary for provenance
+        id: unsigned
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: shiri-unsigned
+          path: Windows/desktop/Shiri.exe
+          if-no-files-found: error
+      - name: Request signing and wait for explicit SignPath approval
+        if: inputs.sign
+        uses: signpath/github-action-submit-signing-request@f6d04783b4569d051e0c80105fe66e82819d0092 # v3
+        with:
+          api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
+          organization-id: ${{ vars.SIGNPATH_ORGANIZATION_ID }}
+          project-slug: ${{ vars.SIGNPATH_PROJECT_SLUG }}
+          signing-policy-slug: ${{ vars.SIGNPATH_POLICY_SLUG }}
+          github-artifact-id: ${{ steps.unsigned.outputs.artifact-id }}
+          wait-for-completion: true
+          output-artifact-directory: ${{ runner.temp }}/shiri-signed
+      - name: Verify signed binary before accepting artifact
+        if: inputs.sign
+        shell: pwsh
+        env:
+          EXPECTED_SUBJECT: ${{ vars.SIGNPATH_EXPECTED_SUBJECT }}
+        run: |
+          ./Windows/release/verify-signature.ps1 -File "$env:RUNNER_TEMP/shiri-signed/Shiri.exe" -ExpectedSubject $env:EXPECTED_SUBJECT -RequireTimestamp
+      - name: Upload verified signed binary
+        if: inputs.sign
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: shiri-signed-verified
+          path: ${{ runner.temp }}/shiri-signed/Shiri.exe
+          if-no-files-found: error
+
+      - name: Build full signed runtime directory
+        if: inputs.sign
+        shell: pwsh
+        run: ./Windows/release/package-ci.ps1 -OutputDirectory "$env:RUNNER_TEMP/shiri-windows-signed" -SignedExe "$env:RUNNER_TEMP/shiri-signed/Shiri.exe"
+      - name: Upload full verified signed runtime
+        if: inputs.sign
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: shiri-windows-signed-verified
+          path: ${{ runner.temp }}/shiri-windows-signed/
+          if-no-files-found: error

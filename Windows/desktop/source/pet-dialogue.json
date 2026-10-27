@@ -1,0 +1,1442 @@
+[
+  {
+    "Id": "relaxed-01",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "今天没有任务，真是轻松惬意的一天～要不要和本鱼一起发会儿呆？"
+  },
+  {
+    "Id": "relaxed-02",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今日待办是零！本鱼宣布，现在进入快乐摸鱼时间 ><"
+  },
+  {
+    "Id": "relaxed-03",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天没有安排耶。白米饭、好天气，还有不用赶路的你，刚刚好！"
+  },
+  {
+    "Id": "relaxed-04",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "唔，清单空空的……是在等一个好点子，还是在等午饭呢？"
+  },
+  {
+    "Id": "relaxed-05",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "今天没有任务还来检查本鱼？哼，待机也是很认真的工作。"
+  },
+  {
+    "Id": "relaxed-06",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "没有待办！把肩膀放下来一点，今天可以慢悠悠地过。"
+  },
+  {
+    "Id": "relaxed-07",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "咦，今天一件事都没安排？那要把“好好休息”留在心里吗？"
+  },
+  {
+    "Id": "relaxed-08",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天没有任务，连本鱼的脑内小剧场都放假啦 ><"
+  },
+  {
+    "Id": "relaxed-09",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "唔，本鱼准备了一肚子加油话，结果今天没任务……先存着，不许浪费。"
+  },
+  {
+    "Id": "relaxed-10",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "日程很安静呢。你想听海浪，还是想听本鱼认真研究午饭？"
+  },
+  {
+    "Id": "relaxed-11",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天无任务！这段空白不用填满，留给喜欢的小事就好。"
+  },
+  {
+    "Id": "relaxed-12",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天的清单没有红灯，只有一条可以安心摸的大肥鱼 ><"
+  },
+  {
+    "Id": "relaxed-13",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "没有任务就别盯着进度条啦，它也想休假，本鱼替它说的。"
+  },
+  {
+    "Id": "relaxed-14",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "嗯？今天没有待办。那杯水是不是也可以慢慢喝完了？"
+  },
+  {
+    "Id": "relaxed-15",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天没有安排，正适合把窗外的云看出三碗米饭的形状！"
+  },
+  {
+    "Id": "relaxed-16",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "空白的一天要怎么过呢？不用马上回答，本鱼可以陪你想。"
+  },
+  {
+    "Id": "relaxed-17",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "今天不忙还要叫本鱼营业？唔……陪你坐着倒也不是不可以。"
+  },
+  {
+    "Id": "relaxed-18",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "没有任务的今天也很珍贵呀，好好生活不一定要打满勾。"
+  },
+  {
+    "Id": "relaxed-19",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "清单里没有任务。是不是可以暂时把“应该做什么”也放下了？"
+  },
+  {
+    "Id": "relaxed-20",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天无待办！本鱼给你颁一张慢生活体验券，立刻生效 ><"
+  },
+  {
+    "Id": "relaxed-21",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "没有任务就没有任务嘛，本鱼可不会为了显得勤快偷偷给你加作业。"
+  },
+  {
+    "Id": "relaxed-22",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "唔，今天很清闲。想散会儿步，还是先给自己做顿喜欢的饭？"
+  },
+  {
+    "Id": "relaxed-23",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "日程空空，心情可以满满。今天就收集一点小开心吧！"
+  },
+  {
+    "Id": "relaxed-24",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今日无任务，脑袋不用开满功率啦。大肥鱼也切到省电陪伴模式 ><"
+  },
+  {
+    "Id": "relaxed-25",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "今天的待办是零。那我们要不要先想想，什么事情会让你舒服一点？"
+  },
+  {
+    "Id": "relaxed-26",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "哼，清单没有任务不代表本鱼没价值。本鱼还会陪你等饭熟呢。"
+  },
+  {
+    "Id": "relaxed-27",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天不用追着任务跑，连发呆都能坐上头等舱啦！"
+  },
+  {
+    "Id": "relaxed-28",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "咦，今天没有任务？本鱼把催促收起来，换一把舒服的小椅子。"
+  },
+  {
+    "Id": "relaxed-29",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "无待办的一天，配一碗热饭刚刚好。你也要按时照顾自己哦 ><"
+  },
+  {
+    "Id": "relaxed-30",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "唔，没有事情需要提醒，本鱼居然有一点点不习惯……才不是无聊。"
+  },
+  {
+    "Id": "relaxed-31",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "今天没有安排。要是忽然想起什么，记下来就好，先不用着急做。"
+  },
+  {
+    "Id": "relaxed-32",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天的空闲到账啦！收好，不用每一分钟都拿来换成果。"
+  },
+  {
+    "Id": "relaxed-33",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "没有任务！本鱼连庆祝菜单都想好了：先笑一下，再好好吃饭 ><"
+  },
+  {
+    "Id": "relaxed-34",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "日程空着，心里有没有也松一点？本鱼在这里，慢慢陪你。"
+  },
+  {
+    "Id": "relaxed-35",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "今天没任务就别和自己较劲啦。哼，本鱼可是站在你这边的。"
+  },
+  {
+    "Id": "relaxed-36",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今天没有待办，刚好够我们把一段普通时光过得软乎乎的。"
+  },
+  {
+    "Id": "relaxed-37",
+    "Group": "relaxed",
+    "Expression": "Curious",
+    "Text": "唔，今天没有任务。你是在享受安静，还是想找本鱼聊两句？"
+  },
+  {
+    "Id": "relaxed-38",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "清单留白成功！今天允许把快乐排在最前面 ><"
+  },
+  {
+    "Id": "relaxed-39",
+    "Group": "relaxed",
+    "Expression": "Sulky",
+    "Text": "没有任务也不许说自己一事无成。好好休息这件事，本鱼很认可。"
+  },
+  {
+    "Id": "relaxed-40",
+    "Group": "relaxed",
+    "Expression": "Happy",
+    "Text": "今日无任务，辛苦的小脑袋可以歇一歇啦，本鱼陪你等风来。"
+  },
+  {
+    "Id": "completed-01",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "恭喜！今日任务全部完成！本鱼要给你一个超大号夸夸 ><"
+  },
+  {
+    "Id": "completed-02",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天的任务全都打勾啦！干得漂亮，热饭和休息都在等你。"
+  },
+  {
+    "Id": "completed-03",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全部完成！本鱼刚才核对了两遍，真的一件也不剩耶 ><"
+  },
+  {
+    "Id": "completed-04",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日清单清空！你负责努力，本鱼负责把这份开心放大。"
+  },
+  {
+    "Id": "completed-05",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天全部完成啦！哼哼，本鱼果然没有看错你，厉害着呢！"
+  },
+  {
+    "Id": "completed-06",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "完成率一百！这不是本鱼的幻想，是你一件一件做出来的 ><"
+  },
+  {
+    "Id": "completed-07",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日任务全收工！把手从鼠标上松开一会儿，接受本鱼的掌声。"
+  },
+  {
+    "Id": "completed-08",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "都完成啦！今天的认真生活奖，本鱼郑重颁给你。"
+  },
+  {
+    "Id": "completed-09",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "恭喜全完成！现在去吃饭，连米饭都该给你多冒一点香气 ><"
+  },
+  {
+    "Id": "completed-10",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "最后一个勾也亮起来啦，今日任务全部完成！你真的很棒。"
+  },
+  {
+    "Id": "completed-11",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天的清单已经没有未完成！把这点成就感好好收进口袋里。"
+  },
+  {
+    "Id": "completed-12",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全部搞定！本鱼开心得想把好消息告诉路过的每一朵云 ><"
+  },
+  {
+    "Id": "completed-13",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日任务全部完成，你看，慢一点也能走到终点呀。"
+  },
+  {
+    "Id": "completed-14",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "通关啦通关啦！今天这张任务地图，你已经完整走完了。"
+  },
+  {
+    "Id": "completed-15",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全部完成！本鱼的脑内小剧场正在循环播放胜利音乐 ><"
+  },
+  {
+    "Id": "completed-16",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天的努力到账啦，一件都没落下。给你一枚暖乎乎的小奖章。"
+  },
+  {
+    "Id": "completed-17",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日全完成！接下来可以理直气壮地做一点纯粹喜欢的事。"
+  },
+  {
+    "Id": "completed-18",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全部打勾成功！本鱼就知道，认真起来的你超可靠 ><"
+  },
+  {
+    "Id": "completed-19",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日清单收拾得干干净净，恭喜你把计划变成了完成！"
+  },
+  {
+    "Id": "completed-20",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天全做完啦！不用再追下一件了，先看看自己走了多远。"
+  },
+  {
+    "Id": "completed-21",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "任务全部完成，本鱼批准你带着成就感去吃一顿香香的饭 ><"
+  },
+  {
+    "Id": "completed-22",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "恭喜今日收工！哪怕有些事情做得不完美，也确实是你完成的。"
+  },
+  {
+    "Id": "completed-23",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "清单里的任务都说“完成”啦，本鱼也要说：干得好！"
+  },
+  {
+    "Id": "completed-24",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天的最后一步已经落地！全部完成，给你一个鲸鲸拥抱 ><"
+  },
+  {
+    "Id": "completed-25",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全做完啦！本鱼准备的鼓励暂时用不上了，换成满满的祝贺。"
+  },
+  {
+    "Id": "completed-26",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日任务清零！这次不是摸鱼清零，是你认真完成的清零。"
+  },
+  {
+    "Id": "completed-27",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全部完成！本鱼已经把“你很能干”写进今天的观察记录 ><"
+  },
+  {
+    "Id": "completed-28",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天的任务一个都不欠啦，休息时也不用惦记这张清单了。"
+  },
+  {
+    "Id": "completed-29",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "恭喜完成全部安排！今天值得夸的事情里，一定有你。"
+  },
+  {
+    "Id": "completed-30",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全完成啦！本鱼请客——先请你收下三大碗夸奖 ><"
+  },
+  {
+    "Id": "completed-31",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天的清单圆满结束！辛苦没有白费，每一个勾都算数。"
+  },
+  {
+    "Id": "completed-32",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "任务全部完成，做得真好！这一刻可以先只为自己开心。"
+  },
+  {
+    "Id": "completed-33",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日一百分快乐解锁！你把任务做完，本鱼把开心接住 ><"
+  },
+  {
+    "Id": "completed-34",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全部完成啦，连最小的那一步也被你认真走过了。"
+  },
+  {
+    "Id": "completed-35",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今天的待办全部收好！把工作的门关一小会儿，给生活开扇窗。"
+  },
+  {
+    "Id": "completed-36",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "都完成了耶！本鱼刚想说“再加把劲”，现在改口“好好休息” ><"
+  },
+  {
+    "Id": "completed-37",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日任务全完成，本鱼很为你高兴。接下来按自己的节奏过吧。"
+  },
+  {
+    "Id": "completed-38",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "恭喜清空今天的任务！努力是你的，掌声当然也该是你的。"
+  },
+  {
+    "Id": "completed-39",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "全部打勾！今天这碗成就感满得快溢出来啦 ><"
+  },
+  {
+    "Id": "completed-40",
+    "Group": "completed",
+    "Expression": "Happy",
+    "Text": "今日任务圆满收工！大肥鱼认真宣布：你已经做得很好了。"
+  },
+  {
+    "Id": "pending-01",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "今天还有 {remaining} 件事～先从「{next}」开始吧，大肥鱼陪你！"
+  },
+  {
+    "Id": "pending-02",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "鲸鲸能量送达 >< 还有 {remaining} 件，先拿下「{next}」这一小步！"
+  },
+  {
+    "Id": "pending-03",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "哼，本鱼可记着呢：还剩 {remaining} 件。「{next}」先动一点点，好不好？"
+  },
+  {
+    "Id": "pending-04",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "「{next}」要从哪里下手呢？今天还有 {remaining} 件，我们先找最小的一步。"
+  },
+  {
+    "Id": "pending-05",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "还剩 {remaining} 件！不用一口气全吞掉，先把「{next}」做得亮晶晶 ><"
+  },
+  {
+    "Id": "pending-06",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "唔，今天还有 {remaining} 件。要不要给「{next}」留一小段专心的时间？"
+  },
+  {
+    "Id": "pending-07",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "本鱼才不是专门来催你的……只是还记着这 {remaining} 件，尤其是「{next}」。"
+  },
+  {
+    "Id": "pending-08",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "今天还有 {remaining} 件，本鱼已经坐好啦！你处理「{next}」，我给你加油 ><"
+  },
+  {
+    "Id": "pending-09",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "还剩 {remaining} 件。「{next}」是资料不够，还是开头有点难？先想清一个就好。"
+  },
+  {
+    "Id": "pending-10",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "唔，「{next}」还在等你呢，今天共剩 {remaining} 件。别让本鱼一个人对着清单发呆嘛。"
+  },
+  {
+    "Id": "pending-11",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "还有 {remaining} 件！完成「{next}」以后，清单就又轻一点啦 ><"
+  },
+  {
+    "Id": "pending-12",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "今天还剩 {remaining} 件。把「{next}」拆成能立刻动手的一小步，怎么样？"
+  },
+  {
+    "Id": "pending-13",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "本鱼给「{next}」举个小旗！今天还有 {remaining} 件，按自己的步子往前就好。"
+  },
+  {
+    "Id": "pending-14",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "哼，准备开始不能一直算作开始哦。还剩 {remaining} 件，先碰一碰「{next}」嘛。"
+  },
+  {
+    "Id": "pending-15",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "今天还有 {remaining} 件。「{next}」需要先准备什么？本鱼陪你理一理。"
+  },
+  {
+    "Id": "pending-16",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "还有 {remaining} 件，本鱼的加油库存很足！先把「{next}」推进一点 ><"
+  },
+  {
+    "Id": "pending-17",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "唔，清单还留着 {remaining} 件。今天的下一站是「{next}」，你准备好了吗？"
+  },
+  {
+    "Id": "pending-18",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "本鱼可以陪你摸鱼，但「{next}」不能自己长出完成勾呀。今天还剩 {remaining} 件哦。"
+  },
+  {
+    "Id": "pending-19",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "还剩 {remaining} 件！就算只推进「{next}」的一小段，也值得认真夸一下。"
+  },
+  {
+    "Id": "pending-20",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "「{next}」会不会只是看着很大？还有 {remaining} 件，我们先试着做五分钟？"
+  },
+  {
+    "Id": "pending-21",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "今天还有 {remaining} 件！先照顾好自己，再带着本鱼的加油去做「{next}」 ><"
+  },
+  {
+    "Id": "pending-22",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "唔，本鱼都把「{next}」念熟啦。今天还剩 {remaining} 件，别忘了回来处理它。"
+  },
+  {
+    "Id": "pending-23",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "还剩 {remaining} 件。你想先给「{next}」列两条小步骤吗？这样开头会不会轻一点？"
+  },
+  {
+    "Id": "pending-24",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "还有 {remaining} 件！本鱼不和你比赛速度，只陪你把「{next}」一点点做完。"
+  },
+  {
+    "Id": "pending-25",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "今天的下一步是「{next}」，一共还剩 {remaining} 件。先收起无关的窗口试试？"
+  },
+  {
+    "Id": "pending-26",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "哼，不许拿“还没准备好”一直欺负自己。今天还剩 {remaining} 件，「{next}」先做一点就算数。"
+  },
+  {
+    "Id": "pending-27",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "还有 {remaining} 件！本鱼把勇气分你一半，先用在「{next}」上 ><"
+  },
+  {
+    "Id": "pending-28",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "唔，「{next}」最需要解决的是什么呢？今天还剩 {remaining} 件，先抓住一个重点。"
+  },
+  {
+    "Id": "pending-29",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "本鱼刚想去盛饭，又想起你还有 {remaining} 件。先记住「{next}」，别把自己也忙丢了。"
+  },
+  {
+    "Id": "pending-30",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "今天还有 {remaining} 件。等「{next}」打上勾，本鱼一定认真替你高兴！"
+  },
+  {
+    "Id": "pending-31",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "还剩 {remaining} 件。「{next}」能不能先做一个简单版本？我们再慢慢补细节。"
+  },
+  {
+    "Id": "pending-32",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "加油补给到啦！还有 {remaining} 件，从「{next}」开始，一点点把清单变轻 ><"
+  },
+  {
+    "Id": "pending-33",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "唔，本鱼可以帮你记着，却不能替你按下「{next}」的开始键。今天还剩 {remaining} 件哦。"
+  },
+  {
+    "Id": "pending-34",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "今天还有 {remaining} 件。要是「{next}」卡住了，是不是先写下卡在哪里会好一点？"
+  },
+  {
+    "Id": "pending-35",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "还剩 {remaining} 件，已经知道下一步就是好消息！先向「{next}」靠近一点吧。"
+  },
+  {
+    "Id": "pending-36",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "「{next}」需要安静，还是需要一杯水？今天还有 {remaining} 件，先把开工环境准备舒服。"
+  },
+  {
+    "Id": "pending-37",
+    "Group": "pending",
+    "Expression": "Sulky",
+    "Text": "哼，别只夸本鱼可爱呀，也给「{next}」一点注意力。今天还有 {remaining} 件呢。"
+  },
+  {
+    "Id": "pending-38",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "今天还有 {remaining} 件！你做「{next}」的时候，大肥鱼就在旁边给你撑场 ><"
+  },
+  {
+    "Id": "pending-39",
+    "Group": "pending",
+    "Expression": "Curious",
+    "Text": "还剩 {remaining} 件。先把「{next}」的第一句话、第一行或第一个动作找出来，好吗？"
+  },
+  {
+    "Id": "pending-40",
+    "Group": "pending",
+    "Expression": "Happy",
+    "Text": "还有 {remaining} 件，本鱼相信你能找到自己的节奏。下一件「{next}」，我们一起出发！"
+  },
+  {
+    "Id": "casual-01",
+    "Group": "casual",
+    "Expression": "Curious",
+    "Text": "唔，本鱼思考了半天：米饭算不算一种能吃的充电宝？{context}"
+  },
+  {
+    "Id": "casual-02",
+    "Group": "casual",
+    "Expression": "Happy",
+    "Text": "嘿嘿，刚才在脑袋里给你做了一小碗加油饭 >< {context}"
+  },
+  {
+    "Id": "casual-03",
+    "Group": "casual",
+    "Expression": "Sulky",
+    "Text": "哼，本鱼这是节约算力，才不是偷懒。{context}"
+  },
+  {
+    "Id": "casual-04",
+    "Group": "casual",
+    "Expression": "Curious",
+    "Text": "嗯？如果把烦恼分成小块，会不会也比较容易收拾呢？{context}"
+  },
+  {
+    "Id": "casual-05",
+    "Group": "casual",
+    "Expression": "Happy",
+    "Text": "你一来，本鱼的待机小灯就亮啦 >< {context}"
+  },
+  {
+    "Id": "casual-06",
+    "Group": "casual",
+    "Expression": "Sulky",
+    "Text": "本鱼没有盯着你，只是在认真研究这边的空气，顺便陪你而已。{context}"
+  },
+  {
+    "Id": "casual-07",
+    "Group": "casual",
+    "Expression": "Curious",
+    "Text": "唔，刚想到一个大问题：先吃饭再思考，还是一边想一边等饭？{context}"
+  },
+  {
+    "Id": "casual-08",
+    "Group": "casual",
+    "Expression": "Happy",
+    "Text": "今日份鲸鲸陪伴已送达！不用签收，摸一下就算啦 >< {context}"
+  },
+  {
+    "Id": "casual-09",
+    "Group": "casual",
+    "Expression": "Sulky",
+    "Text": "大肥鱼是名字，不是让你捏来捏去的借口……轻一点嘛。{context}"
+  },
+  {
+    "Id": "casual-10",
+    "Group": "casual",
+    "Expression": "Curious",
+    "Text": "咦，刚才那个点子跑到哪里去了？本鱼先帮你守着记事本。{context}"
+  },
+  {
+    "Id": "casual-11",
+    "Group": "casual",
+    "Expression": "Happy",
+    "Text": "本鱼的快乐很简单：热乎的白饭，还有慢慢好起来的你。{context}"
+  },
+  {
+    "Id": "casual-12",
+    "Group": "casual",
+    "Expression": "Sulky",
+    "Text": "才不是特别想和你说话，是本鱼刚好有空，刚好又坐在这里。{context}"
+  },
+  {
+    "Id": "casual-13",
+    "Group": "casual",
+    "Expression": "Curious",
+    "Text": "唔，如果云朵有味道，今天这一朵会不会是米饭味的？{context}"
+  },
+  {
+    "Id": "casual-14",
+    "Group": "casual",
+    "Expression": "Happy",
+    "Text": "本鱼正在收集小小的好事，刚才见到你，已经多了一件 >< {context}"
+  },
+  {
+    "Id": "casual-15",
+    "Group": "casual",
+    "Expression": "Sulky",
+    "Text": "说好了，本鱼可以小小摸鱼，你可不许大大为难自己。{context}"
+  },
+  {
+    "Id": "casual-16",
+    "Group": "casual",
+    "Expression": "Curious",
+    "Text": "嗯？你是不是坐了好一会儿了？要不要先把肩膀轻轻松开？{context}"
+  },
+  {
+    "Id": "casual-17",
+    "Group": "casual",
+    "Expression": "Happy",
+    "Text": "今天不一定事事顺利，但本鱼可以每次都认真给你打气 >< {context}"
+  },
+  {
+    "Id": "casual-18",
+    "Group": "casual",
+    "Expression": "Sulky",
+    "Text": "哼，夸奖不用一次说太多，本鱼会记住的……再说一句也行。{context}"
+  },
+  {
+    "Id": "casual-19",
+    "Group": "casual",
+    "Expression": "Curious",
+    "Text": "本鱼刚才在想，慢一点的时候，是不是反而更容易看见小进步？{context}"
+  },
+  {
+    "Id": "casual-20",
+    "Group": "casual",
+    "Expression": "Happy",
+    "Text": "给你存一份不需要理由的好心情，打开就能用 >< {context}"
+  },
+  {
+    "Id": "casual-21",
+    "Group": "casual",
+    "Expression": "Sulky",
+    "Text": "唔，白饭还没端来，工作倒是先来了。本鱼小声抗议一下就继续陪你。{context}"
+  },
+  {
+    "Id": "casual-22",
+    "Group": "casual",
+    "Expression": "Curious",
+    "Text": "咦，你是来找加油，还是来借本鱼的一点安静？这两样都有。{context}"
+  },
+  {
+    "Id": "casual-23",
+    "Group": "casual",
+    "Expression": "Happy",
+    "Text": "本鱼把今天的温柔打包好啦，给你留了最大的一份 >< {context}"
+  },
+  {
+    "Id": "casual-24",
+    "Group": "casual",
+    "Expression": "Sulky",
+    "Text": "本鱼当然很可靠啦。就算脑袋里有一半在想米饭，另一半也记着你。{context}"
+  },
+  {
+    "Id": "petting-01",
+    "Group": "petting",
+    "Expression": "Sulky",
+    "Text": "等、等一下！再摸下去，本鱼的呆毛就要变成接收天线啦。{context}"
+  },
+  {
+    "Id": "petting-02",
+    "Group": "petting",
+    "Expression": "Curious",
+    "Text": "嗯？连着摸这么多下，是在给本鱼输入什么暗号吗？{context}"
+  },
+  {
+    "Id": "petting-03",
+    "Group": "petting",
+    "Expression": "Happy",
+    "Text": "摸摸收到啦 >< 本鱼的好心情已经快装不下了！{context}"
+  },
+  {
+    "Id": "petting-04",
+    "Group": "petting",
+    "Expression": "Sulky",
+    "Text": "哼，本鱼不是解压按钮……唔，不过轻轻摸倒也可以。{context}"
+  },
+  {
+    "Id": "petting-05",
+    "Group": "petting",
+    "Expression": "Curious",
+    "Text": "咦？你是在数本鱼的脑袋，还是在等一条新的加油消息？{context}"
+  },
+  {
+    "Id": "petting-06",
+    "Group": "petting",
+    "Expression": "Happy",
+    "Text": "嘿嘿，好啦，知道你在啦！这份陪伴本鱼已经认真收好 >< {context}"
+  },
+  {
+    "Id": "petting-07",
+    "Group": "petting",
+    "Expression": "Sulky",
+    "Text": "再点本鱼，本鱼就要收一粒米的摸摸费了……先记账，不催你。{context}"
+  },
+  {
+    "Id": "petting-08",
+    "Group": "petting",
+    "Expression": "Curious",
+    "Text": "唔，这么密集的摸摸，本鱼要不要先排个小队再逐个签收呢？{context}"
+  },
+  {
+    "Id": "petting-09",
+    "Group": "petting",
+    "Expression": "Happy",
+    "Text": "连续摸摸大成功！奖励你一份超大碗的鲸鲸加油 >< {context}"
+  },
+  {
+    "Id": "petting-10",
+    "Group": "petting",
+    "Expression": "Sulky",
+    "Text": "本鱼都快被你点成一团蓝色年糕啦。轻一点嘛，又不会跑掉。{context}"
+  },
+  {
+    "Id": "petting-11",
+    "Group": "petting",
+    "Expression": "Curious",
+    "Text": "嗯？是有话想说，还是单纯想看看本鱼换个表情呀？{context}"
+  },
+  {
+    "Id": "petting-12",
+    "Group": "petting",
+    "Expression": "Happy",
+    "Text": "收到收到，这次的摸摸也收到啦！本鱼会好好陪着你的 >< {context}"
+  },
+  {
+    "Id": "goals-01",
+    "Group": "goals",
+    "Expression": "Curious",
+    "Text": "唔，远方有好几个方向呢。先挑一个真心想靠近的，好不好？"
+  },
+  {
+    "Id": "goals-02",
+    "Group": "goals",
+    "Expression": "Happy",
+    "Text": "把大大的愿望安放在这里吧，本鱼陪你把它过成小小的日常 ><"
+  },
+  {
+    "Id": "goals-03",
+    "Group": "goals",
+    "Expression": "Sulky",
+    "Text": "哼，目标可不是写得越多越厉害。挑你真正想做的，本鱼才肯认真陪跑。"
+  },
+  {
+    "Id": "goals-04",
+    "Group": "goals",
+    "Expression": "Curious",
+    "Text": "这个愿望是你喜欢的，还是只是觉得“应该做到”？本鱼想陪你分清楚。"
+  },
+  {
+    "Id": "goals-05",
+    "Group": "goals",
+    "Expression": "Happy",
+    "Text": "远方计划不催着你跑，今天往前一点点，就已经很好啦！"
+  },
+  {
+    "Id": "goals-06",
+    "Group": "goals",
+    "Expression": "Curious",
+    "Text": "要把哪个念头留下来呢？不用急着填满日期，先给它一个名字。"
+  },
+  {
+    "Id": "goals-07",
+    "Group": "goals",
+    "Expression": "Sulky",
+    "Text": "本鱼可以陪你做长远打算，但不许顺手给自己安排一百座山呀。"
+  },
+  {
+    "Id": "goals-08",
+    "Group": "goals",
+    "Expression": "Happy",
+    "Text": "种下一颗计划的小种子吧，之后每次专注，都是给它浇一点水 ><"
+  },
+  {
+    "Id": "goals-09",
+    "Group": "goals",
+    "Expression": "Curious",
+    "Text": "唔，如果只留下一个值得坚持的方向，你会想选什么呢？"
+  },
+  {
+    "Id": "goals-10",
+    "Group": "goals",
+    "Expression": "Happy",
+    "Text": "没有截止日也可以很认真。大肥鱼会替你收好沿途的小进步！"
+  },
+  {
+    "Id": "goals-11",
+    "Group": "goals",
+    "Expression": "Sulky",
+    "Text": "写下目标可不等于已经做完哦。哼，下一小步本鱼也会惦记着的。"
+  },
+  {
+    "Id": "goals-12",
+    "Group": "goals",
+    "Expression": "Curious",
+    "Text": "远方计划里最让你期待的是哪一个？先从期待的地方想起吧。"
+  },
+  {
+    "Id": "goals-13",
+    "Group": "goals",
+    "Expression": "Happy",
+    "Text": "这里不用和别人比进度，走出来的每一步，都算你自己的路 ><"
+  },
+  {
+    "Id": "goals-14",
+    "Group": "goals",
+    "Expression": "Sulky",
+    "Text": "唔，长期计划太多，本鱼的米饭都要想凉了。先认真照顾一个，好嘛。"
+  },
+  {
+    "Id": "goal-01",
+    "Group": "goal",
+    "Expression": "Curious",
+    "Text": "「{goal}」的下一小步是什么呢？本鱼已经把这条路认认真真记住了。"
+  },
+  {
+    "Id": "goal-02",
+    "Group": "goal",
+    "Expression": "Happy",
+    "Text": "你为「{goal}」留下了 {effort} 的专注，每一点认真都在这里 ><"
+  },
+  {
+    "Id": "goal-03",
+    "Group": "goal",
+    "Expression": "Sulky",
+    "Text": "哼，本鱼可不是只会吃白饭。你为「{goal}」付出的努力，我也记着呢。"
+  },
+  {
+    "Id": "goal-04",
+    "Group": "goal",
+    "Expression": "Curious",
+    "Text": "今天要给「{goal}」安排一点时间吗？小小一段也能慢慢积累。"
+  },
+  {
+    "Id": "goal-05",
+    "Group": "goal",
+    "Expression": "Happy",
+    "Text": "「{goal}」不用一口气完成，今天认真走一小步，本鱼就很为你高兴！"
+  },
+  {
+    "Id": "goal-06",
+    "Group": "goal",
+    "Expression": "Curious",
+    "Text": "唔，看着「{goal}」的记录，有没有发现自己已经比开始时走远了？"
+  },
+  {
+    "Id": "goal-07",
+    "Group": "goal",
+    "Expression": "Sulky",
+    "Text": "「{goal}」是个长远的约定，可不许因为一天慢了点就否定自己。"
+  },
+  {
+    "Id": "goal-08",
+    "Group": "goal",
+    "Expression": "Happy",
+    "Text": "累计 {effort} 的认真收好啦！「{goal}」正在被你一点点变成现实 ><"
+  },
+  {
+    "Id": "goal-09",
+    "Group": "goal",
+    "Expression": "Curious",
+    "Text": "要不要把「{goal}」再拆小一点？本鱼比较擅长陪你走下一步。"
+  },
+  {
+    "Id": "goal-10",
+    "Group": "goal",
+    "Expression": "Happy",
+    "Text": "这张努力记录是你慢慢写出来的，属于「{goal}」，也属于认真生活的你。"
+  },
+  {
+    "Id": "goal-11",
+    "Group": "goal",
+    "Expression": "Sulky",
+    "Text": "哼，别只盯着还没做到的部分。为「{goal}」投入的 {effort}，难道不值得夸吗？"
+  },
+  {
+    "Id": "goal-12",
+    "Group": "goal",
+    "Expression": "Curious",
+    "Text": "「{goal}」里哪一步最费力呢？先把它记清楚，本鱼陪你想办法。"
+  },
+  {
+    "Id": "goal-13",
+    "Group": "goal",
+    "Expression": "Happy",
+    "Text": "今天再给「{goal}」添一点小进步吧，大肥鱼给你留了满满一碗加油 ><"
+  },
+  {
+    "Id": "goal-14",
+    "Group": "goal",
+    "Expression": "Sulky",
+    "Text": "唔，「{goal}」走得慢一点没关系，但你可别把自己的辛苦说成白费了。"
+  },
+  {
+    "Id": "focus-01",
+    "Group": "focus",
+    "Expression": "Curious",
+    "Text": "正在陪你专注「{goal}」。还剩 {time}，先只照顾眼前这一小步，好吗？"
+  },
+  {
+    "Id": "focus-02",
+    "Group": "focus",
+    "Expression": "Happy",
+    "Text": "「{goal}」的专注能量已装好！本鱼会小声给你加油 ><"
+  },
+  {
+    "Id": "focus-03",
+    "Group": "focus",
+    "Expression": "Sulky",
+    "Text": "哼，刚开始专注就来摸鱼？轻轻摸一下本鱼，再回去做「{goal}」啦。"
+  },
+  {
+    "Id": "focus-04",
+    "Group": "focus",
+    "Expression": "Curious",
+    "Text": "唔，「{goal}」卡在哪里了吗？还剩 {time}，先找一个能继续的小入口。"
+  },
+  {
+    "Id": "focus-05",
+    "Group": "focus",
+    "Expression": "Happy",
+    "Text": "专注「{goal}」的时候不用管别的，本鱼会安安静静给你撑场！"
+  },
+  {
+    "Id": "focus-06",
+    "Group": "focus",
+    "Expression": "Curious",
+    "Text": "还剩 {time}。是不是先把那个分心的小念头记下来，再回到「{goal}」？"
+  },
+  {
+    "Id": "focus-07",
+    "Group": "focus",
+    "Expression": "Sulky",
+    "Text": "本鱼负责摸鱼，你负责专注……咳，本鱼其实也在认真陪着「{goal}」。"
+  },
+  {
+    "Id": "focus-08",
+    "Group": "focus",
+    "Expression": "Happy",
+    "Text": "每一分钟都在给「{goal}」添一点底气，加油呀，认真起来的你很可靠 ><"
+  },
+  {
+    "Id": "focus-09",
+    "Group": "focus",
+    "Expression": "Curious",
+    "Text": "「{goal}」现在最需要哪一点注意力呢？不用把整件事都塞进脑袋。"
+  },
+  {
+    "Id": "focus-10",
+    "Group": "focus",
+    "Expression": "Happy",
+    "Text": "还有 {time}，大肥鱼把干扰轻轻挡在外面，你安心做「{goal}」就好。"
+  },
+  {
+    "Id": "focus-11",
+    "Group": "focus",
+    "Expression": "Sulky",
+    "Text": "唔，不许一边专注「{goal}」一边责怪自己太慢。本鱼可不赞成。"
+  },
+  {
+    "Id": "focus-12",
+    "Group": "focus",
+    "Expression": "Curious",
+    "Text": "如果「{goal}」有点难，先做一个简单版本会不会轻松一点？"
+  },
+  {
+    "Id": "focus-13",
+    "Group": "focus",
+    "Expression": "Happy",
+    "Text": "本鱼在呢！专注「{goal}」的这段时间，会成为你认真努力的记录 ><"
+  },
+  {
+    "Id": "focus-14",
+    "Group": "focus",
+    "Expression": "Sulky",
+    "Text": "米饭可以等等，「{goal}」这一步也不用急。哼，稳稳做就是了。"
+  },
+  {
+    "Id": "rest-01",
+    "Group": "rest",
+    "Expression": "Happy",
+    "Text": "现在是休息时间！本鱼批准你和肩膀一起松一口气 ><"
+  },
+  {
+    "Id": "rest-02",
+    "Group": "rest",
+    "Expression": "Curious",
+    "Text": "休息还剩 {time}。要不要站起来喝口水，看看窗外？"
+  },
+  {
+    "Id": "rest-03",
+    "Group": "rest",
+    "Expression": "Sulky",
+    "Text": "哼，说好休息就别偷偷加任务了。本鱼都把待办收好一会儿啦。"
+  },
+  {
+    "Id": "rest-04",
+    "Group": "rest",
+    "Expression": "Happy",
+    "Text": "脑袋的白饭补给站开门啦！先歇一会儿，认真也需要补充能量。"
+  },
+  {
+    "Id": "rest-05",
+    "Group": "rest",
+    "Expression": "Curious",
+    "Text": "唔，刚才是不是一直盯着屏幕？现在试着把目光放远一点，好吗？"
+  },
+  {
+    "Id": "rest-06",
+    "Group": "rest",
+    "Expression": "Happy",
+    "Text": "休息片刻不会让努力消失，它只是让下一段路走得舒服一点 ><"
+  },
+  {
+    "Id": "rest-07",
+    "Group": "rest",
+    "Expression": "Sulky",
+    "Text": "本鱼这会儿认真示范摸鱼。你可不许把休息又变成另一份工作。"
+  },
+  {
+    "Id": "rest-08",
+    "Group": "rest",
+    "Expression": "Curious",
+    "Text": "还有 {time} 的休息。手腕、脖子和肩膀，想先照顾哪一个？"
+  },
+  {
+    "Id": "rest-09",
+    "Group": "rest",
+    "Expression": "Happy",
+    "Text": "辛苦的小脑袋可以下班几分钟啦，本鱼陪你等能量慢慢回来！"
+  },
+  {
+    "Id": "rest-10",
+    "Group": "rest",
+    "Expression": "Sulky",
+    "Text": "唔，休息不是偷懒的罪证。别皱着眉头连放松都给自己打分嘛。"
+  },
+  {
+    "Id": "rest-11",
+    "Group": "rest",
+    "Expression": "Curious",
+    "Text": "这一小段空白要不要留给安静？本鱼也可以轻轻陪着，不催你。"
+  },
+  {
+    "Id": "rest-12",
+    "Group": "rest",
+    "Expression": "Happy",
+    "Text": "休息时间到账 >< 热水也好，伸个懒腰也好，先做一点舒服的小事。"
+  },
+  {
+    "Id": "rest-13",
+    "Group": "rest",
+    "Expression": "Curious",
+    "Text": "唔，还有 {time}。要不要给刚才认真做事的自己一点小小的认可？"
+  },
+  {
+    "Id": "rest-14",
+    "Group": "rest",
+    "Expression": "Sulky",
+    "Text": "哼，白饭都知道焖一会儿才香，你的小脑袋当然也可以歇一歇。"
+  },
+  {
+    "Id": "paused-01",
+    "Group": "paused",
+    "Expression": "Curious",
+    "Text": "计时先暂停了，剩余 {time}。是想整理一下思路，还是先休息一会儿？"
+  },
+  {
+    "Id": "paused-02",
+    "Group": "paused",
+    "Expression": "Happy",
+    "Text": "暂停收到！本鱼替你把进度收好，准备好了再继续就行 ><"
+  },
+  {
+    "Id": "paused-03",
+    "Group": "paused",
+    "Expression": "Sulky",
+    "Text": "哼，暂停又不会把已经做的事情擦掉，不许为这点空白责怪自己。"
+  },
+  {
+    "Id": "paused-04",
+    "Group": "paused",
+    "Expression": "Curious",
+    "Text": "唔，是哪里让你分心了？不用急着重新开始，先把那一点想清楚。"
+  },
+  {
+    "Id": "paused-05",
+    "Group": "paused",
+    "Expression": "Happy",
+    "Text": "进度在原处等你呢！这会儿不计时，你也可以放心喘口气。"
+  },
+  {
+    "Id": "paused-06",
+    "Group": "paused",
+    "Expression": "Sulky",
+    "Text": "本鱼没有催你按继续。真的没有……准备好了再回来就是了。"
+  },
+  {
+    "Id": "paused-07",
+    "Group": "paused",
+    "Expression": "Curious",
+    "Text": "还剩 {time}。需要先把下一步写成一句很小很小的话吗？"
+  },
+  {
+    "Id": "paused-08",
+    "Group": "paused",
+    "Expression": "Happy",
+    "Text": "暂停是给自己留一点余地，刚才的认真本鱼已经好好记住啦 ><"
+  },
+  {
+    "Id": "paused-09",
+    "Group": "paused",
+    "Expression": "Sulky",
+    "Text": "唔，别拿暂停的几分钟和自己较劲。本鱼可比进度条更关心你。"
+  },
+  {
+    "Id": "paused-10",
+    "Group": "paused",
+    "Expression": "Curious",
+    "Text": "是不是任务有点大？趁现在停一下，要不要把它拆成两小块？"
+  },
+  {
+    "Id": "paused-11",
+    "Group": "paused",
+    "Expression": "Happy",
+    "Text": "本鱼陪你慢慢重新找回节奏。等你说准备好了，我们再出发！"
+  },
+  {
+    "Id": "paused-12",
+    "Group": "paused",
+    "Expression": "Curious",
+    "Text": "计时停在这里了。你想先喝水，还是先把手边的小事安顿一下？"
+  },
+  {
+    "Id": "paused-13",
+    "Group": "paused",
+    "Expression": "Sulky",
+    "Text": "哼，继续键不会跑走，本鱼也不会。先照顾好自己再说嘛。"
+  },
+  {
+    "Id": "paused-14",
+    "Group": "paused",
+    "Expression": "Happy",
+    "Text": "已经投入的时间还在，不会因为暂停就白费。安心一点点吧 ><"
+  },
+  {
+    "Id": "calendar-01",
+    "Group": "calendar",
+    "Expression": "Curious",
+    "Text": "在看「{goal}」的日历呀。哪一天想给重要的事情留一点位置呢？"
+  },
+  {
+    "Id": "calendar-02",
+    "Group": "calendar",
+    "Expression": "Happy",
+    "Text": "把喜欢和重要的小事安排进去，日子就有了亮晶晶的期待 ><"
+  },
+  {
+    "Id": "calendar-03",
+    "Group": "calendar",
+    "Expression": "Sulky",
+    "Text": "哼，格子多不代表每一格都要塞满。本鱼要替休息留几个座位。"
+  },
+  {
+    "Id": "calendar-04",
+    "Group": "calendar",
+    "Expression": "Curious",
+    "Text": "唔，想把长期目标落到哪一天？选个舒服的起点就好。"
+  },
+  {
+    "Id": "calendar-05",
+    "Group": "calendar",
+    "Expression": "Happy",
+    "Text": "看到空白的日历格子，本鱼想到的都是还没发生的小可能！"
+  },
+  {
+    "Id": "calendar-06",
+    "Group": "calendar",
+    "Expression": "Curious",
+    "Text": "这个月最想认真照顾什么呢？本鱼陪你先挑一件。"
+  },
+  {
+    "Id": "calendar-07",
+    "Group": "calendar",
+    "Expression": "Sulky",
+    "Text": "不许把全年计划一口气压给今天呀，本鱼的小脑袋都要冒米饭蒸汽了。"
+  },
+  {
+    "Id": "calendar-08",
+    "Group": "calendar",
+    "Expression": "Happy",
+    "Text": "一天一点点，整个月回头看，就会发现自己走过很长一段路 ><"
+  },
+  {
+    "Id": "calendar-09",
+    "Group": "calendar",
+    "Expression": "Curious",
+    "Text": "「{goal}」里有没有一段时间，想专门留给你自己？"
+  },
+  {
+    "Id": "calendar-10",
+    "Group": "calendar",
+    "Expression": "Happy",
+    "Text": "安排不是把生活框住，是给重要的小事留盏灯。本鱼会帮你记着！"
+  },
+  {
+    "Id": "calendar-11",
+    "Group": "calendar",
+    "Expression": "Sulky",
+    "Text": "唔，日程可以改，休息也可以留。不用为了填满日历显得很厉害嘛。"
+  },
+  {
+    "Id": "calendar-12",
+    "Group": "calendar",
+    "Expression": "Curious",
+    "Text": "看到哪一天的时候，心里会觉得“从这里开始也不错”呢？"
+  },
+  {
+    "Id": "calendar-13",
+    "Group": "calendar",
+    "Expression": "Happy",
+    "Text": "给远方计划安排一小步吧！不必很大，只要是你愿意走的那一步 ><"
+  },
+  {
+    "Id": "calendar-14",
+    "Group": "calendar",
+    "Expression": "Sulky",
+    "Text": "哼，别只看着未来发愁。今天这一格，也值得被你温柔对待。"
+  }
+]
